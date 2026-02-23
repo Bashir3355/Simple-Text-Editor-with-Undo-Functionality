@@ -1,0 +1,16 @@
+{
+  "name": "simple-text-editor",
+  "version": "1.0.0",
+  "description": "// ================================\r // 1. Text Operation Representation\r // ================================\r // Each operation is stored as an object:\r // { op: \"add\" | \"del\", c: character }\r class Editor {\r   constructor() {\r     // ================================\r     // Stores the current text\r     // ================================\r     this.text = \"\";",
+  "main": "editor.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
